@@ -27,7 +27,7 @@ def get_pdf_links(url):
                 new_link = "".join((header_url,url_string))
                 f_url=urllib.parse.quote_plus(new_link)
                 pdf_url = unquote(f_url)
-                #pdf_url=urllib.parse.quote(new_link)
+        
             else:
                 pdf_url=initial_url
             #i+=1
